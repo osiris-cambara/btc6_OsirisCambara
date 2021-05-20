@@ -75,9 +75,7 @@ class Database extends Config
 		'failover' => [],
 		'port'     => 3306,
 	];
-	  $data['mydata1']="nombre_usuario"
-	  $data['mydata2']="pasword"  
-	return view ('form'.$data);
+	 
 	//--------------------------------------------------------------------
 
 	public function __construct()
