@@ -27,7 +27,7 @@ class LoginController extends Controller
         $rows = $this->login->countAllResults();
         $session = session();          
         if($rows==1){
-            return view('user_name''password');
+            return view('success');
         }else{
             $session->setFlashdata('msg', 'Invalid User');
             return view('login');
